@@ -1,0 +1,24 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE files
+.idea/
+.vscode/
+
+# Django files
+*.sqlite3
+*.log
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore all files and directories starting with a dot, except .gitignore
+.*
+!.gitignore
